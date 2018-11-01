@@ -2,11 +2,13 @@ package AbstractFactory;
 
 public class Demo {
     public static void demo(){
-        FoodFactory foodFactory = new FoodFactory();
-        Food apple = foodFactory.getFood(Fruit.FAMILY, Apple.TYPE);
-        Food banana = foodFactory.getFood(Fruit.FAMILY, Banana.TYPE);
-        Food carrot = foodFactory.getFood(AbstractFactory.Vegetable.FAMILY, AbstractFactory.Carrot.TYPE);
-        Food potato = foodFactory.getFood(AbstractFactory.Vegetable.FAMILY, AbstractFactory.Potato.TYPE);
+        FoodFactory vegetableFactory = new VegetableFactory();
+        FoodFactory fruitFactory = new FruitFactory();
+
+        Food apple = fruitFactory.getFood(Fruit.FAMILY, Apple.TYPE);
+        Food banana = fruitFactory.getFood(Fruit.FAMILY, Banana.TYPE);
+        Food carrot = vegetableFactory.getFood(Vegetable.FAMILY, Carrot.TYPE);
+        Food potato = vegetableFactory.getFood(Vegetable.FAMILY, Potato.TYPE);
 
         System.out.printf("Apple colour: %s, type: %s\n", apple.getColour(), apple.getType());
         System.out.printf("Banana colour: %s, type: %s\n", banana.getColour(), banana.getType());
