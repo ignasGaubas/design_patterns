@@ -11,5 +11,7 @@ public class Demo {
         EdibleCarrot edibleCarrot = new EdibleCarrot(carrot);
         edibleCarrot.throwAt("wall");
         edibleCarrot.eat();
+
+        System.out.println();
     }
 }

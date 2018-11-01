@@ -12,5 +12,6 @@ public class Main {
         Builder.Demo.demo();
         Prototype.Demo.demo();
         Decorator.Demo.demo();
+        Command.Demo.demo();
     }
 }
