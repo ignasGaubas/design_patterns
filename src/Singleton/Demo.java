@@ -2,6 +2,8 @@ package Singleton;
 
 public class Demo {
     public static void demo(){
+        System.out.println("*** Singleton pattern ***");
+
         Singleton singletonA = Singleton.getInstance();
         Singleton singletonB = Singleton.getInstance();
 

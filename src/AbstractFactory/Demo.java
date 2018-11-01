@@ -2,6 +2,8 @@ package AbstractFactory;
 
 public class Demo {
     public static void demo(){
+        System.out.println("*** Abstract Factory pattern ***");
+
         FoodFactory vegetableFactory = new VegetableFactory();
         FoodFactory fruitFactory = new FruitFactory();
 

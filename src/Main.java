@@ -7,5 +7,6 @@ public class Main {
         Singleton.Demo.demo();
         Factory.Demo.demo();
         AbstractFactory.Demo.demo();
+        Strategy.Demo.demo();
     }
 }
