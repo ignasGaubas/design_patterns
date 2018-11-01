@@ -10,5 +10,6 @@ public class Main {
         Strategy.Demo.demo();
         Observer.Demo.demo();
         Builder.Demo.demo();
+        Prototype.Demo.demo();
     }
 }

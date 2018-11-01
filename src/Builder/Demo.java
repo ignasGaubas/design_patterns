@@ -3,6 +3,8 @@ package Builder;
 public class Demo {
 
     public static void demo(){
+        System.out.println("*** Builder pattern ***");
+
         HumanBuilder builder = new HumanBuilder();
         builder.setHands(2);
         builder.setLegs(2);

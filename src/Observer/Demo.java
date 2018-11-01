@@ -2,6 +2,8 @@ package Observer;
 
 public class Demo {
     public static void demo() {
+        System.out.println("*** Observer pattern ***");
+
         Auctioneer au = new Auctioneer(100);
 
         Notifyable b1 = new Bidder("b1");
