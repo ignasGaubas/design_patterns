@@ -11,5 +11,6 @@ public class Main {
         Observer.Demo.demo();
         Builder.Demo.demo();
         Prototype.Demo.demo();
+        Decorator.Demo.demo();
     }
 }
