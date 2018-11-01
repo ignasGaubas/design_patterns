@@ -9,5 +9,6 @@ public class Main {
         AbstractFactory.Demo.demo();
         Strategy.Demo.demo();
         Observer.Demo.demo();
+        Builder.Demo.demo();
     }
 }
