@@ -13,5 +13,6 @@ public class Main {
         Prototype.Demo.demo();
         Decorator.Demo.demo();
         Command.Demo.demo();
+        Adapter.Demo.demo();
     }
 }
