@@ -14,5 +14,6 @@ public class Main {
         Decorator.Demo.demo();
         Command.Demo.demo();
         Adapter.Demo.demo();
+        Facade.Demo.demo();
     }
 }
