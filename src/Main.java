@@ -15,5 +15,6 @@ public class Main {
         Command.Demo.demo();
         Adapter.Demo.demo();
         Facade.Demo.demo();
+        Bridge.Demo.demo();
     }
 }
