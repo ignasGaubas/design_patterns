@@ -18,5 +18,6 @@ public class Main {
         Bridge.Demo.demo();
 
         TemplateMethod.Demo.demo();
+        Iterator.Demo.demo();
     }
 }
