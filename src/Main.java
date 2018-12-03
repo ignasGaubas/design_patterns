@@ -16,5 +16,7 @@ public class Main {
         Adapter.Demo.demo();
         Facade.Demo.demo();
         Bridge.Demo.demo();
+
+        TemplateMethod.Demo.demo();
     }
 }
