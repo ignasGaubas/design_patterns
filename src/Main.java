@@ -20,5 +20,6 @@ public class Main {
         TemplateMethod.Demo.demo();
         Iterator.Demo.demo();
         Composite.Demo.demo();
+        Flyweight.Demo.demo();
     }
 }
