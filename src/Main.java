@@ -22,5 +22,6 @@ public class Main {
         Composite.Demo.demo();
         Flyweight.Demo.demo();
         State.Demo.demo();
+        Proxy.Demo.demo();
     }
 }
