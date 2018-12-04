@@ -23,5 +23,6 @@ public class Main {
         Flyweight.Demo.demo();
         State.Demo.demo();
         Proxy.Demo.demo();
+        ChainOfResponsibility.Demo.demo();
     }
 }
