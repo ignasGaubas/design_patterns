@@ -21,5 +21,6 @@ public class Main {
         Iterator.Demo.demo();
         Composite.Demo.demo();
         Flyweight.Demo.demo();
+        State.Demo.demo();
     }
 }
