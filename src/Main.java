@@ -25,5 +25,6 @@ public class Main {
         Proxy.Demo.demo();
         ChainOfResponsibility.Demo.demo();
         Interpreter.Demo.demo();
+        Mediator.Demo.demo();
     }
 }
