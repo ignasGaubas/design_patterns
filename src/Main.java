@@ -27,5 +27,6 @@ public class Main {
         Interpreter.Demo.demo();
         Mediator.Demo.demo();
         Memento.Demo.demo();
+        Visitor.Demo.demo();
     }
 }
