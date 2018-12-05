@@ -26,5 +26,6 @@ public class Main {
         ChainOfResponsibility.Demo.demo();
         Interpreter.Demo.demo();
         Mediator.Demo.demo();
+        Memento.Demo.demo();
     }
 }
